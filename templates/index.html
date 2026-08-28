@@ -1,0 +1,423 @@
+
+{% load static %}
+{% include 'header.html' %}
+
+<!-- Start Banner Hero -->
+<div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+
+    <ol class="carousel-indicators">
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row p-5">
+
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="{% static './assets/img/banner_img_01.jpg' %}" alt="">
+                    </div>
+
+                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+
+                            <h1 class="h1" style="color: black;"><b>Mercato</b> eCommerce</h1>
+</h1>
+</h1>
+</h1>
+
+                            <p>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row p-5">
+
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="{% static './assets/img/banner_img_02.jpg' %}" alt="">
+                    </div>
+
+                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="text-align-left">
+
+                            <h1 class="h1">ABOUT MERCATO</h1>
+
+                            <p>
+                                MERCATO is an emerging eCommerce platform that offers a wide range of quality products at affordable prices, ensuring a smooth and reliable online shopping experience.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row p-5">
+
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="{% static '/assets/img/banner_img_03.jpg' %}" alt="">
+                    </div>
+
+                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                        <div class="text-align-left">
+
+                            <h1 class="h1">WHY MERCATO?</h1>
+
+                            <p>
+                                MERCATO offers a wide range of high-quality products across multiple categories, ensuring customers have plenty of choices at competitive prices. The platform provides a user-friendly interface for easy browsing, secure payment options for safe transactions, and fast delivery services for convenience. With reliable product listings, smooth navigation, and a modern design, MERCATO aims to deliver a seamless and efficient online shopping experience for every user.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <a class="carousel-control-prev text-decoration-none w-auto ps-3"
+       href="#template-mo-zay-hero-carousel"
+       role="button"
+       data-bs-slide="prev">
+
+        <i class="fas fa-chevron-left"></i>
+
+    </a>
+
+
+    <a class="carousel-control-next text-decoration-none w-auto pe-3"
+       href="#template-mo-zay-hero-carousel"
+       role="button"
+       data-bs-slide="next">
+
+        <i class="fas fa-chevron-right"></i>
+
+    </a>
+
+</div>
+
+<!-- End Banner Hero -->
+
+
+<!-- Start Categories of The Month -->
+
+<section class="container py-5">
+
+    <div class="row text-center pt-3">
+
+        <div class="col-lg-6 m-auto">
+
+            <h1 class="h1">Categories of The Month</h1>
+
+            <p>
+                Latest collections of the month
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-12 col-md-4 p-5 mt-3">
+
+            <a href="#">
+                <img src="{% static './assets/img/category_img_01.jpg' %}"
+                     class="rounded-circle img-fluid border">
+            </a>
+
+            <h5 class="text-center mt-3 mb-3">Watches</h5>
+
+            <p class="text-center">
+
+                <a href="#"
+                   class="btn btn-success"
+                   onclick="showMessage(); return false;">
+                    Go Shop
+                </a>
+
+            </p>
+
+        </div>
+
+
+        <div class="col-12 col-md-4 p-5 mt-3">
+
+            <a href="#">
+                <img src="{% static './assets/img/category_img_02.jpg' %}"
+                     class="rounded-circle img-fluid border">
+            </a>
+
+            <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
+
+            <p class="text-center">
+
+                <a href="#"
+                   class="btn btn-success"
+                   onclick="showMessage(); return false;">
+                    Go Shop
+                </a>
+
+            </p>
+
+        </div>
+
+
+        <div class="col-12 col-md-4 p-5 mt-3">
+
+            <a href="#">
+                <img src="{% static './assets/img/category_img_03.jpg' %}"
+                     class="rounded-circle img-fluid border">
+            </a>
+
+            <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
+
+            <p class="text-center">
+
+                <a href="#"
+                   class="btn btn-success"
+                   onclick="showMessage(); return false;">
+                    Go Shop
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- End Categories of The Month -->
+
+
+<!-- Start Featured Product -->
+
+<section class="bg-light">
+
+    <div class="container py-5">
+
+        <div class="row text-center py-3">
+
+            <div class="col-lg-6 m-auto">
+
+                <h1 class="h1">Featured Product</h1>
+
+                <p>
+                    Discover top-quality products at unbeatable prices. Designed for comfort, performance, and everyday use.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+
+            <div class="col-12 col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <a href="shop-single.html">
+                        <img class="card-img-top"
+                             src="{% static './assets/img/feature_prod_01.jpg' %}"
+                             alt="...">
+                    </a>
+
+                    <div class="card-body">
+
+                        <ul class="list-unstyled d-flex justify-content-between">
+
+                            <li>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-muted fa fa-star"></i>
+                                <i class="text-muted fa fa-star"></i>
+                            </li>
+
+                            <li class="text-muted text-right">Rs.1800</li>
+
+                        </ul>
+
+                        <a href="shop-single.html"
+                           class="h2 text-decoration-none text-dark">
+                            Stylish Torches
+                        </a>
+
+                        <p class="card-text">
+                            Flashlight, Powerbank Function, Telescopic Zoom, 10W Multifunction Light Torch (Black, 14.5 cm, Rechargeable)
+                        </p>
+
+                        <p class="text-muted">Reviews (0)</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <a href="shop-single.html">
+                        <img class="card-img-top"
+                             src="{% static './assets/img/feature_prod_02.jpg' %}"
+                             alt="...">
+                    </a>
+
+                    <div class="card-body">
+
+                        <ul class="list-unstyled d-flex justify-content-between">
+
+                            <li>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-muted fa fa-star"></i>
+                                <i class="text-muted fa fa-star"></i>
+                            </li>
+
+                            <li class="text-muted text-right">Rs.609</li>
+
+                        </ul>
+
+                        <a href="shop-single.html"
+                           class="h2 text-decoration-none text-dark">
+                            Smart Watches
+                        </a>
+
+                        <p class="card-text">
+                            Yash Enterprises Ultra I8 pro Max Series 8 Bluetooth Call 4G Network Smartwatch (Red Strap, Free Size)
+                        </p>
+
+                        <p class="text-muted">Reviews (0)</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4 mb-4">
+
+                <div class="card h-100">
+
+                    <a href="shop-single.html">
+                        <img class="card-img-top"
+                             src="{% static './assets/img/feature_prod_03.jpg' %}"
+                             alt="...">
+                    </a>
+
+                    <div class="card-body">
+
+                        <ul class="list-unstyled d-flex justify-content-between">
+
+                            <li>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                                <i class="text-warning fa fa-star"></i>
+                            </li>
+
+                            <li class="text-muted text-right">Rs.8999</li>
+
+                        </ul>
+
+                        <a href="shop-single.html"
+                           class="h2 text-decoration-none text-dark">
+                            Polaroid OneStep 2
+                        </a>
+
+                        <p class="card-text">
+                            A modern analog instant camera inspired by the original 1977 OneStep design
+                        </p>
+
+                        <p class="text-muted">Reviews (0)</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- End Featured Product -->
+
+
+<!-- Custom Popup Message -->
+
+<div id="shopMessage" style="
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    z-index: 9999;
+">
+
+    <h3 style="color: #198754; margin-bottom: 15px;">
+        Welcome to MERCATO!
+    </h3>
+
+    <p style="font-size: 16px; color: #333;">
+        SIGN UP / LOGIN and go to the <b>PRODUCTS</b> section
+        to explore or buy products.
+    </p>
+
+    <button onclick="closeMessage()" class="btn btn-success">
+        OK
+    </button>
+
+</div>
+
+
+<script>
+
+function showMessage() {
+    document.getElementById("shopMessage").style.display = "block";
+}
+
+function closeMessage() {
+    document.getElementById("shopMessage").style.display = "none";
+}
+
+</script>
+
+
+{% include 'footer.html' %}
+```
